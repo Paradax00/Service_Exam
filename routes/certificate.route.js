@@ -7,6 +7,10 @@ const router = express.Router();
 
 const pharmacieController = require("../controllers/pharmacie.controller");
 
+
+/**
+ * @PATH : base_url + api/certificate
+ */
 router.get("/:_id",pharmacieController.certificate)
 
 module.exports = router;

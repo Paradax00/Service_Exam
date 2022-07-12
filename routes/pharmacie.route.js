@@ -4,6 +4,10 @@ const router = express.Router();
 
 const pharmacieController = require("../controllers/pharmacie.controller");
 
+
+/**
+ * @Route : /api/pharmacies
+ */
 // router.post("/login", userContropharmacieControllerller.login)
 router.get("/list",pharmacieController.list)
 
