@@ -9,7 +9,7 @@ mongoose.connect("mongodb://localhost:27017/examen_flutter_sim_janvier_2022")
     })
     .catch((ex)=>{
         console.log(ex);
-        console.log("Unable to connect to database");
+        console.log("Unable to connect to database, please verify your port or change it");
     })
 
 app.use(express.json());
